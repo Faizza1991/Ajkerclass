@@ -17,6 +17,7 @@ public class CoreStep {
 	public void verifyHomePage() {
 		
 		helper.verifyElement(driver.findElement(ObjectRepo.logo));
+		System.out.println("Hi");
 	}
     public void verifyHomePageTitle() {
     	helper.verifyTitle(driver, TestData.Htitle);
